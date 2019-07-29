@@ -607,7 +607,7 @@ cmdclass.update(build_ext=buildcfg.build_ext)
 options =  dict(
   name = 'louvain-github',
   version=versioneer.get_version(),
-  description = 'Louvain is a general algorithm for methods of community detection in large networks.',
+  description = 'Forked from louvain-igraph (https://github.com/vtraag/louvain-igraph). Publish because its PyPI version is out-of-date, whereas our scCloud package depends on this github repo version. Will remove if a new release is published.',
   long_description=
     """
  Louvain is a general algorithm for methods of community detection in large networks.
