@@ -605,7 +605,7 @@ cmdclass = versioneer.get_cmdclass()
 cmdclass.update(build_ext=buildcfg.build_ext)
 
 options =  dict(
-  name = 'louvain',
+  name = 'louvain-github',
   version=versioneer.get_version(),
   description = 'Louvain is a general algorithm for methods of community detection in large networks.',
   long_description=
